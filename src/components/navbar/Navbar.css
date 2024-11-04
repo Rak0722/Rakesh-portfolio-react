@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;600;700;&display=swap');
+
+
+:root{
+    --primary-color:#575a5e;
+    /* --primary-color-dark:#08b2e3; */
+    --secondary-color :#a7a2a9;
+    --text-dark:#08090a;
+    --text-light:#efe9f4;
+    --background:#7d70ba;
+    --max-width:1200px;
+}
+/* *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} */
+
+
+
+.navbar{
+    background-size: cover;
+    backdrop-filter: blur(8px);
+    /* z-index: index 2; */
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar-brand{
+    /* color: var(--primary-color); */
+    font-size: 26px;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10px;
+
+}
+
+.nav-link:hover{
+    color: var(--text-dark);
+    /* text-decoration: underline; */
+    border: 2px solid black;
+    border-top-color:var(--text-dark);
+    border-bottom-color:var(--text-dark);
+    text-shadow: 0px 0px 2px black;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 5px;
+    background-color: var(--background);
+}
+.navbar-nav{
+    position: absolute;
+    left: 750px;
+    display:flex;
+}
+
+.body{
+    height:600px;
+    background-color:#1b9b27;
+    /* background: url(/src/assets/images/pattent.png); */
+    background-position: center;
+    background-size: cover;
+    margin: 0%;
+    z-index: 2;
+
+
+}
+
+#name{
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:var(--secondary-color);
+
+}
+
+/* navbar ends */
+
+/* sectin starts */
+
+.section{
+    background-color:var(--background);
+    border: 3px solid black;
+    border-radius: 5px;
+    /* width:fit-content; */
+    box-shadow: 5px 5px 5px black;
+    margin-left:2%;
+    margin-right:2%;
+    
+}
+
+.section_container{
+    min-height: 100vh;
+    max-width: auto;
+    margin-top: 25px;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subtitle{
+    letter-spacing: 2px;
+    color: var(--text-light);
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+.title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3rem;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+.title span{
+    font-weight: 600;
+}
+
+.description{
+    line-height: 2rem;
+    color:var(--text-light);
+    margin-bottom: 1rem;
+    font-weight:bolder;
+    text-indent: 10%;
+    /* text-overflow: ellipsis; */
+    text-align: justify;
+    font-style: italic;
+}
+
+.action_btns{
+    display: flex;
+    gap:1rem;
+}
+
+.action_btns button{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 2px sold var(--primary-color);
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.hire_me{
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.hire_me:hover{
+    background-color: var(--primary-color-dark);
+}
+
+.portfolio{
+    color: var(--primary-color);
+}
+
+.portfolio:hover{
+    background-color: var(--secondary-color);
+    color: #ffffff;
+}
+
+.image{
+    display: grid;
+    place-items: center;
+}
+
+.image img{
+    width: min(25rem, 90%);
+    border-radius: 100%;
+}
+
+
+/* media width starts */
+@media (width < 750px){
+    .navbar-collapse .navbar-expand-lg{
+        display: flex;
+        left: auto;
+       
+    }
+
+    .navbar-nav .navbar-expand-lg{
+        position: absolute;
+        left: 70px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    ul{
+        position: absolute;
+        display:flex;
+        width: 100%;
+        height: calc(100vh - 85px);
+        left: 100%;
+        top: 85px;
+        background-color:blueviolet;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+
+    }
+    nav .navbar-expand-lg ~ ul{
+        left: 0;
+    }
+
+    /* ul li a{
+        font-size: 5rem;
+    } */
+    .section_container{
+        padding: 10rem 1rem 5rem 1rem;
+        text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .image{
+        grid-area:1/1/2/2;
+    }
+
+    .action_btns{
+        margin: auto;
+    }
+}
+

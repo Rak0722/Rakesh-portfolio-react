@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;600;700;&display=swap');
+
+:root{
+    /* --primary-color:#575a5e; */
+    /* --primary-color-dark:#08b2e3; */
+    --secondary-color :#a7a2a9;
+    --text-dark:#08090a;
+    --text-light:#efe9f4;
+    --background:#7d70ba;
+    --max-width:1200px;
+}
+
+.end{
+    height: 60px;
+    width: auto;
+}
+
+
+.contact{
+    background-color:var(--background);
+    /* background-image: url(/src/assets/images/wave\ pattern.png); */
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: 25px;
+    padding: 2rem;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    /* gap: 4rem; */
+    font-family:cursive;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-control{
+    height: 250px;
+}
+.form{
+    width:500px;
+    display: flex;
+    margin-left:600px ;
+    bottom: 500px;
+  margin-top: -300px;
+    
+    
+}
+
+.form-floating{
+    display: flex;
+    border-radius: 5px;
+    border: 2px double black;
+    box-shadow: 2px 2px 1px white ,6px 6px 4px black;
+    padding: 0%;
+    color: var(--text-dark);
+    
+}
+
+.btn {
+    width: 100px;
+    margin-left: 11px;
+    background-color: blanchedalmond;
+    color: var(--text-dark);
+    border-radius: 5px;
+    border: 2px double black;
+    box-shadow: 2px 2px 1px white ,6px 6px 4px black;
+}
+/* footer */
+.credit{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 900;
+    display: flex;
+    margin-top: 70px;
+    justify-items:center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: var(--text-dark);
+
+}
+#rights{
+    color:aliceblue;
+    text-shadow: 0px 0px 8px black;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/* @media (width < 750px){ */
+
+.form-floating{
+    /* padding: 10rem 1rem 5rem 1rem; */
+    /* text-align: center; */
+    /* grid-template-columns: repeat(1, 1fr); */
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+    justify-items: center;
+    align-content: center;
+    margin-right: 50px;
+}
+.contact{
+    display: flex;
+    grid-area:1/2;
+    /* border: 3px solid black; */
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+    font-family: cursive;
+
+}
+
+
+
+
+.card-img{
+    height: 300px;
+    width: 500px;
+    padding: 0%;
+    display: flex;
+    /* margin-top:0px ; */
+    /* position: absolute; */
+    /* left:600px; */
+    /* filter: blur(8px); */
+}
+.card {
+    height: 300px;
+    width: 500px;
+    padding: 0%;
+    margin-top: 15px;
+    font-family: cursive;
+    /* color: black; */
+    /* box-shadow: 2px 2px 2px black; */
+    /* display: flex; */
+    /* position: absolute; */
+    /* left:600px; */
+    filter: blur(0px);
+    background-image: url(/src/assets/images/justdoit.jpg);
+    z-index: 3;
+}
+#card{
+    height: 250px;
+    width: 450px;
+    padding: 0%;
+    margin: 10px;
+    /* margin-top: 15px; */
+    box-shadow: 0px 0px 2px black;
+    filter: blur(0px);
+    /* border: 2px double white; */
+    border-radius: 5px;
+
+}
+.card-text a{
+    text-decoration: none;
+    color:var(--text-light);
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.card-text a:hover{
+    color: var(--background);
+
+}
+
+.card-title{
+    color: rgb(208, 208, 208);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 5px black;
+    /* font-style: italic; */
+    font-size: 30px;
+    /* text-decoration: underline; */
+    backdrop-filter: blur(100%);
+}
+
+.modal{
+    color: var(--text-dark);
+}

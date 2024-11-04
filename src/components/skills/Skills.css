@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;600;700;&display=swap');
+
+
+
+:root{
+    /* --primary-color:#575a5e; */
+    /* --primary-color-dark:#08b2e3; */
+    --secondary-color :#a7a2a9;
+    --text-dark:#08090a;
+    --text-light:#efe9f4;
+    --background:#222823;
+    --max-width:1200px;
+}
+
+
+.abt-text{
+    color: black;
+}
+small{
+    color: antiquewhite;
+}
+
+
+.skills{
+    margin-top:100px ;
+    background-color:var(--background);
+    /* background-image: url(/src/assets/images/cube.jpg); */
+    background-size: cover;
+    height: 100vh;
+    max-width: auto;
+    margin-top: 25px;
+    padding: 2rem;
+    /* display: grid; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    gap: 4rem;
+   /* border: 3px solid black; */
+   border-radius: 5px;
+   box-shadow: 5px 5px 5px black;
+   font-family: cursive;
+}
+
+.progressbox{
+    position: relative;
+    top:-450px
+}
+
+.progress{
+    margin-top:35px;
+    /* padding: 10px; */
+    width:600px;
+    display: flex;
+    position: relative;
+    left: 400px;
+    border: 2px double black;
+    height: 20px;
+    border-radius: 50px;
+   
+}
+.progress:hover{
+    /* border: 2px double wheat; */
+    border-radius: 0%;
+    box-shadow: 5px 5px 5px black;
+}
+ .text {
+    text-decoration: none;
+    font-size: large;
+    padding: 10px;
+    margin-left: 50px;
+    display: flex;
+    position: relative;
+    left: 10px;
+    top:-20px;
+    color:var(--text-light);
+    
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.text2{
+    margin-top: 25px;
+    
+}
+
+.box{
+margin-top:30px;
+}
