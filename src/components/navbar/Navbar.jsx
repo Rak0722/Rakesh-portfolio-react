@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import main1 from '../../assets/images/deer.png'
 
 // import 'bootstrap/dist/css/bootstrap.min.css'
 const Navbar = () => {
@@ -59,7 +60,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div class="image">
-                <img src="src\assets\images\deer.png" alt="Profile"/>
+                <img src={main1} alt="Profile"/>
             </div>
         </div>
     </section>
