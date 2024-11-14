@@ -23,7 +23,7 @@ const Contact = () => {
      <div className='contact' id='contact'>
      <div className='end'></div>
       <h3 className='abt-text'>Get in
-        <small class="text-body-dark"> Touch</small>
+        <small class="text-body-light"> Touch</small>
         </h3>
 
 {/* card */}

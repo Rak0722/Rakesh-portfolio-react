@@ -14,7 +14,7 @@ const Skills = () => {
      <div className='contact' id='contact'>
      <div className='end'></div>
       <h3 className='abt-text'>My
-        <small class="text-body-dark"> Skills</small>
+        <small class="text-body-light"> Skills</small>
         </h3>
  
     <div class="container">
