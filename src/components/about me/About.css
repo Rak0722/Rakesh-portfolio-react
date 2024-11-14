@@ -18,7 +18,7 @@
 }
 
 
-.img-thumbnail{
+.image_about{
     /* background-color:brown; */
     border: 2px double black;
     border-radius: 50%;
@@ -35,7 +35,7 @@
 
 }
 
-.img-thumbnail:hover{
+.image_about:hover{
     background-color: var(--background);
     border-radius: 0%;
    transition-timing-function: linear ease-in-out;

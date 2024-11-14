@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import main1 from '../../assets/images/deer.png'
+import main2 from '../../assets/images/deer.png'
 const About = () => {
   return (
     <>
@@ -10,9 +10,11 @@ const About = () => {
       <h3 className='abt-text'>About
         <small className="text-body-light"> Me</small>
         </h3>
-        <img src={main1} alt="image"/>
-        <img src={main1} alt="image"/>
-        <img src={main1} alt="image"/>
+        {/* <div class="image_about"> */}
+                <img class="image_about" src={main2} alt="Profile"/>
+                <img class="image_about" src={main2} alt="Profile"/>
+                <img class="image_about" src={main2} alt="Profile"/>
+            {/* </div> */}
         {/* <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/>
         <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/>
       <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/> */}
