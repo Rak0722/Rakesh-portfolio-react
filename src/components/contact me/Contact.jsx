@@ -66,7 +66,7 @@ const Contact = () => {
 
 
 {/* <!-- Button trigger modal - */}
-<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal">
   Send
 </button>
 
