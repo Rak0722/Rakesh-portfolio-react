@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;600;700;&display=swap');
 
 
-:root{
-    --primary-color:#575a5e;
+root{
+    /* --primary-color:#575a5e; */
     /* --primary-color-dark:#08b2e3; */
-    --secondary-color :#a7a2a9;
+    --secondary-color :#662c91;
     --text-dark:#08090a;
     --text-light:#efe9f4;
     --background:#7d70ba;
@@ -17,76 +17,57 @@
     box-sizing: border-box;
 } */
 
-
-
-.navbar{
-    background-size: cover;
-    backdrop-filter: blur(8px);
-    /* z-index: index 2; */
-    position: fixed;
-    top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.navbar-brand{
-    /* color: var(--primary-color); */
-    font-size: 26px;
-}
-.nav-link{
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 10px;
-
-}
-
-.nav-link:hover{
-    color: var(--text-dark);
-    /* text-decoration: underline; */
-    border: 2px solid black;
-    border-top-color:var(--text-dark);
-    border-bottom-color:var(--text-dark);
-    text-shadow: 0px 0px 2px black;
-    box-shadow: 2px 2px 5px black;
-    border-radius: 5px;
-    background-color: var(--background);
-}
-.navbar-nav{
-    position: absolute;
-    left: 750px;
-    display:flex;
-}
-
-.body{
-    height:600px;
-    background-color:#1b9b27;
-    /* background: url(/src/assets/images/pattent.png); */
-    background-position: center;
-    background-size: cover;
-    margin: 0%;
-    z-index: 2;
-
-
-}
-
-#name{
-    display: flex;
-    position: absolute;
-    top: 100px;
-    left: 100px;
-}
-
 nav{
-    width: 100%;
-    height: 70px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color:var(--secondary-color);
+    background-color: var(--secondary-color);
+    /* border: 2px solid black; */
 
 }
 
+/* navbar buttons */
+/* From Uiverse.io by satyamchaudharydev */ 
+/* === removing default button style ===*/
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* button styling */
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(253, 206, 255, 0.6);
+    --animation-color: #ffff;
+    --fs-size: 1.3em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
 /* navbar ends */
 
 /* sectin starts */

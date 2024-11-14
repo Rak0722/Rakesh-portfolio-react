@@ -6,33 +6,45 @@ import main1 from '../../assets/images/deer.png'
 const Navbar = () => {
   return (
    
+    // navbar-light bg-light ----------!
+
     <div>
-       
-  
-    <nav className="navbar fixed-top navbar-expand-lg bg-body-success">
-  <div className="container-fluid">
-    <a className="navbar-brand mb-0 h1">PORTFOLIO</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar fixed-top navbar-expand-lg ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#about">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#skills">My Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#contact">Contact</a>
-        </li>
-        {/* <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li> */}
-      </ul>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#"> <button class="button" data-text="Awesome">
+    <span class="actual-text">&nbsp;Home&nbsp;</span>
+    <span aria-hidden="true" class="hover-text">&nbsp;Home&nbsp;</span>
+</button></a>
+        <a class="nav-link" href="#about"><button class="button" data-text="Awesome">
+    <span class="actual-text">&nbsp;About&nbsp;</span>
+    <span aria-hidden="true" class="hover-text">&nbsp;About&nbsp;</span>
+</button></a>
+
+<a class="nav-link" href="#skills"><button class="button" data-text="Awesome">
+    <span class="actual-text">&nbsp;Skills&nbsp;</span>
+    <span aria-hidden="true" class="hover-text">&nbsp;Skills&nbsp;</span>
+</button></a>
+<a class="nav-link" href="#contact"><button class="button" data-text="Awesome">
+    <span class="actual-text">&nbsp;Contact&nbsp;</span>
+    <span aria-hidden="true" class="hover-text">&nbsp;Contact&nbsp;</span>
+</button></a>
+
+
+        {/* <button class="button" data-text="Awesome">
+    <span class="actual-text">&nbsp;uiverse&nbsp;</span>
+    <span aria-hidden="true" class="hover-text">&nbsp;uiverse&nbsp;</span>
+</button> */}
+
+
+
+        {/* <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> */}
+      </div>
     </div>
   </div>
 </nav>
