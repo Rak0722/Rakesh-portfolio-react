@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import main1 from '../../assets/images/deer.png'
 const About = () => {
   return (
     <>
@@ -9,9 +10,12 @@ const About = () => {
       <h3 className='abt-text'>About
         <small className="text-body-light"> Me</small>
         </h3>
+        <img src={main1} alt="image"/>
+        <img src={main1} alt="image"/>
+        <img src={main1} alt="image"/>
+        {/* <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/>
         <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/>
-        <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/>
-      <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/>
+      <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/> */}
 
         <hr />
 
