@@ -17,10 +17,7 @@
     width: auto;
 }
 
-span{
-    display:inline;
-    color: var(--text-dark);
-}
+
 .img-thumbnail{
     /* background-color:brown; */
     border: 2px double black;
@@ -30,7 +27,10 @@ span{
     width:auto;
     background-position: center;  
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 100px;
+    display: inline;
+    justify-content: center;
+    align-items: center;
     /* padding: 10px; */
 
 }
@@ -72,15 +72,15 @@ span{
     /* background-image: url(/src/assets/images/wave\ pattern.png); */
     background-size: cover;
     min-height: 100vh;
-    max-width: var(--max-width);
+    max-width: 100%;
     margin-top: 25px;
     padding: 2rem;
-    /* display: grid; */
+    
     /* grid-template-columns: repeat(2, 1fr); */
     gap: 4rem;
     /* border: 3px solid black; */
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px black;
+    /* border-radius: 5px; */
+    /* box-shadow: 5px 5px 5px black; */
     font-family: cursive;
 }
 .row{

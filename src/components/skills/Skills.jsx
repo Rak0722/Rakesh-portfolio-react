@@ -11,7 +11,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 const Skills = () => {
   return (
     <>
-     <div className='contact' id='contact'>
+     <div className='skills' id='skills'>
      <div className='end'></div>
       <h3 className='abt-text'>My
         <small class="text-body-light"> Skills</small>

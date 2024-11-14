@@ -27,17 +27,11 @@ const Contact = () => {
         </h3>
 
 {/* card */}
-        <div class="card text-bg-dark ">
-  <img src="src\assets\images\redcube.png" class="card-img" alt="backie"/>
+<div className="card_details">
+        <div class="card  ">contact:9028929292<br/> email:rakes.ramalingam22@gmail.com
+  {/* <img src="src\assets\images\redcube.png" class="card-img" alt="backie"/> */}
   <div class="card-img-overlay">
-    <div id='card'>
-    <h3 class="card-title">Visit me here!!!</h3>
-    <p></p>
-    <h4 class="card-text">+91 1234567890<br/>+91 0987654321 </h4>
-    <h4 class="card-text"><a href="#"> ABCD@gmail.com</a> </h4>
-    <h4 class="card-text">{/*<FontAwesomeIcon icon="fa-solid fa-envelope" /> */} <a href="#">LinkedIn</a></h4>
-    {/* <p class="card-text"><small>Last updated 3 mins ago</small></p> */}
-</div>
+   
   </div>
 </div>
 
@@ -81,8 +75,8 @@ const Contact = () => {
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Message sent successfully</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h1 class="modal-title title-dark fs-5" id="exampleModalLabel">Message sent successfully</h1>
+        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         Thanks for sending a Message...&#128172;
@@ -97,7 +91,7 @@ const Contact = () => {
   
   </form>
 
-
+  </div>
 
   
   <div class="credit">
