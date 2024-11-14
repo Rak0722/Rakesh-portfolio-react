@@ -29,7 +29,7 @@ const About = () => {
 <p></p>
   <dt class="col-sm-3 left ">Education :</dt>
   <dd class="col-sm-9 right">
-    <>BCA <span className='text-primary'>(Bachelor of Computer Application)</span>(2021-2023)in Pachaiyappas college for Men.
+    <>BCA (Bachelor of Computer Application)(2021-2023)in Pachaiyappas college for Men.
     <br/> Class XII with 80% in 2021
     <br/> Class X with 70% in 2019</>
     </dd>
