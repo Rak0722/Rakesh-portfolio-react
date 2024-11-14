@@ -9,9 +9,9 @@ const About = () => {
       <h3 className='abt-text'>About
         <small className="text-body-light"> Me</small>
         </h3>
-        <img src="src\assets\images\deer.png" class="img-thumbnail" alt="image"/>
-        <img src="src\assets\images\deer.png" class="img-thumbnail" alt="image"/>
-      <img src="src\assets\images\deer.png" class="img-thumbnail" alt="image"/>
+        <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/>
+        <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/>
+      <img src="./src/assets/images/deer.png" class="img-thumbnail" alt="image"/>
 
         <hr />
 
