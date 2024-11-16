@@ -65,7 +65,14 @@
     display: flex;
 
 }
+.link{
+   color: var(--secondary-color);
+}
 
+.link:hover{
+    color: var(--text-dark);
+    text-shadow: 0px 0px 3px var(--secondary-color);
+}
 .about{
     margin-top:100px ;
     background-color:var(--background);

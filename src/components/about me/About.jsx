@@ -48,8 +48,19 @@ const About = () => {
   <dd class="col-sm-9 right">Pronounce Pro ( Duration January 2024 - April 2024 ).
     <br/>
     The project involves using the Python programming language and the tkinterframework to create a Pronounce pro (TTS) application. Users can input text using graphical user interface built with tkinter, and the application will convert the text into speech using a speech synthesis engine. The project combines elements of user interface design, text processing and audio output to create a functional TTS application in Python.<br/>
-  Skills used - Python,Tkinter.
-  </dd>
+    Skills used - Python,Tkinter. <br/><br/>
+
+     Rakesh Bakery shop website ( Duration August 2024 - November 2024 )
+    Project Description: This project is a visually stunning and fully responsive bakery shop website designed to captivate users with its vibrant colors, mouth- watering imagery, and seamless functionality. Built using HTML, CSS, JavaScript, and Bootstrap, the website ensures an exceptional browsing experience across all screen resolutions, from mobile devices to desktops. This project demonstrates a blend of creativity and technical skills, resulting in a bakery shop website that is not only functional but also irresistibly delightful to explore. <br/> Skills used - HTML,CSS,Javascript,Bootstrap,Bootstrap CSS Framework.
+    
+    {/* <a class="link" href="https://rak0722.github.io/Rakesh-bakery-website/#">Project link - https://rak0722.github.io/Rakesh-bakery-website/#</a> */}
+  
+</dd>
+
+
+<dt class="col-sm-3 left "></dt>
+<dd class="col-sm-9 right"><a class="link" href="https://rak0722.github.io/Rakesh-bakery-website/#">Project link - https://rak0722.github.io/Rakesh-bakery-website/#</a></dd>
+  
   <p></p>
   <dt class="col-sm-3 left ">Certification Course:</dt>
   <dd class="col-sm-9 right">HDCA (Honours Diploma in Computer Applications)( September 2022 - Present).

@@ -65,7 +65,7 @@ const Navbar = () => {
                 </p>
                 <div class="action_btns">
                     <button class="hire_me">Hire Me</button>
-                    <a href="/Rakesh updated resume.pdf" download="/Rakesh updated resume.pdf">
+                    <a href="./Rakesh latest resume.pdf" download="./Rakesh latest resume.pdf">
                     <button class="portfolio">
                     Download CV</button>
                     </a>
