@@ -28,7 +28,9 @@ const Contact = () => {
 
 {/* card */}
 <div className="card_details">
-        <div class="card  ">contact:9028929292<br/> email:rakes.ramalingam22@gmail.com
+        <div class="card  ">Contact:+91 7448872528<br/>E-mail: rakesh.ramalingam22@gmail.com<br/><button type="button" class="btn " ><a href="https://github.com/Rak0722">Github</a>
+  
+</button>
   {/* <img src="src\assets\images\redcube.png" class="card-img" alt="backie"/> */}
   <div class="card-img-overlay">
    
