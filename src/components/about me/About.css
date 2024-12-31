@@ -27,7 +27,7 @@
     width:auto;
     background-position: center;  
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 10px;
     display: inline;
     display: flex;
     justify-content: center;
@@ -69,6 +69,7 @@
     text-align: left;
     padding-left: 10px;
     display: flex;
+    font-size: 24px;
 
 }
 .link{
