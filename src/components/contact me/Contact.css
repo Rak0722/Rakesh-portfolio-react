@@ -92,3 +92,11 @@
 #rights{
     color: var(--text-light);
 }
+
+.modal-body{
+    color: #08090a;
+}
+
+.modal-title{
+    color: #08090a;
+}
