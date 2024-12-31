@@ -32,7 +32,7 @@
     
 }
 .card {
-    width:400px ;
+    width:100%;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -59,7 +59,9 @@
 } 
 
 .form-floating{
-    color: #08090a;
+    /* color: #08090a; */
+    color: var(--background);
+    
 }
 
 /* button starts */
@@ -67,7 +69,7 @@
     position: relative;
     left: 10px;
 
-    width:50px;
+    width:100px;
     border: 1px solid black;
     box-shadow: 3px 3px 0px black;
     display: flex;

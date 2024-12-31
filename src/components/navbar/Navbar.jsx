@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import main1 from '../../assets/images/deer.png'
+import main1 from '../../assets/images/rak.jpg'
 
 // import 'bootstrap/dist/css/bootstrap.min.css'
 const Navbar = () => {

@@ -29,8 +29,11 @@
     margin-top: 10px;
     margin-left: 100px;
     display: inline;
+    display: flex;
     justify-content: center;
     align-items: center;
+    position:relative;
+    filter:opacity(50%);
     /* padding: 10px; */
 
 }
@@ -40,6 +43,7 @@
     border-radius: 0%;
    transition-timing-function: linear ease-in-out;
    transition-duration: 0.5s;
+   filter: grayscale(0);
    /* transition-delay: 1s; */
 }
 .abt-text{
@@ -55,13 +59,15 @@
     font-weight: 700;
     text-align: left;
     display: flex;
-    padding-left: 100px;
+    padding-left: 20px;
 }
 
 .left{
     font-weight: 700;
+    color:var(--text-dark);
+    text-shadow: 2px 2px 2px var(--secondary-color);
     text-align: left;
-    padding-left: 100px;
+    padding-left: 10px;
     display: flex;
 
 }

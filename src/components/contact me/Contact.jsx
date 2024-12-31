@@ -36,9 +36,10 @@ const Contact = () => {
    
   </div>
 </div>
+</div>
 
 {/* form */}
-        <form class="row form gy-2 gx-3 align-items-center">
+        <form class="row form gy-1 gx-3 align-items-center">
 <div class="form-floating mb-3">
   <input type="text" class="form-control" id="floatingtextarea" placeholder="Your Name"/>
   <label for="floatingtextarea">Name</label>
@@ -93,7 +94,7 @@ const Contact = () => {
   
   </form>
 
-  </div>
+
 
   
   <div class="credit">
